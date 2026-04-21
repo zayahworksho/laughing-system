@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zayah Workshop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f1a;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(to right, #1a1a2e, #16213e);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+    nav {
+      text-align: center;
+      background: #111;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00adb5;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #00adb5;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a2e;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #00adb5;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Zayah Workshop</h1>
+  <p>Creative Digital Solutions & Tech Services</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>Welcome to Zayah Workshop, your all-in-one hub for digital creativity and mobile solutions. We provide video editing, graphic design, photo editing, phone repair, and premium subscriptions.</p>
+  <a href="#contact" class="btn">Message Us</a>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Zayah Workshop is dedicated to delivering affordable, reliable, and high-quality services. We help students, creators, and businesses bring their ideas to life through creativity and technology.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    
+    <div class="card">
+      <h3>Video Editing</h3>
+      <p>Content editing, cinematic videos, transitions, and effects.</p>
+    </div>
+
+    <div class="card">
+      <h3>Graphic Design</h3>
+      <p>Logos, social media posts, banners, and branding.</p>
+    </div>
+
+    <div class="card">
+      <h3>Photo Editing</h3>
+      <p>Retouching, background editing, and ID pictures.</p>
+    </div>
+
+    <div class="card">
+      <h3>Phone Repair</h3>
+      <p>Screen replacement and basic troubleshooting.</p>
+    </div>
+
+    <div class="card">
+      <h3>Subscriptions</h3>
+      <p>Netflix, Disney+, CapCut Pro, Canva Pro, ChatGPT Plus.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: zayahishope@gmail.com</p>
+  <p>Facebook: Zayah Workshop</p>
+  <p>WhatsApp: 0963-466-2042</p>
+  <p>TikTok: Zayah.</p>
+  <p>Telegram: Vhanz Maddatu</p>
+  <p>Location: Norzagaray, Bulacan</p>
+</section>
+
+<footer>
+  <p>© 2026 Zayah Workshop | Every step today, a better tomorrow</p>
+</footer>
+
+</body>
+</html>
